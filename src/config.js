@@ -31,25 +31,25 @@
       REGION: "us-east-2",
       USER_POOL_ID: "us-east-2_E9IfyDkKI",
       APP_CLIENT_ID: "5m5jee1kcbiev4dlt5kt91ef4j",
-      IDENTITY_POOL_ID: "YOUR_DEV_IDENTITY_POOL_ID"
+      IDENTITY_POOL_ID: "us-east-2:4ec9e707-4874-46d0-aa75-56b3f9aa6e55"
     }
   };
   
   const prod = {
-    STRIPE_KEY: "YOUR_STRIPE_PROD_PUBLIC_KEY",
+    STRIPE_KEY: "pk_test_W677BZx5Uye0LeFn8XTeVwgL00uFK3N3y0",
     s3: {
-      REGION: "YOUR_PROD_S3_UPLOADS_BUCKET_REGION",
-      BUCKET: "YOUR_PROD_S3_UPLOADS_BUCKET_NAME"
+      REGION: "us",
+      BUCKET: "jules-practise-bucket"
     },
     apiGateway: {
-      REGION: "YOUR_PROD_API_GATEWAY_REGION",
-      URL: "YOUR_PROD_API_GATEWAY_URL"
+      REGION: "us-east-2",
+      URL: "https://zv82kfjxp7.execute-api.us-east-2.amazonaws.com/prod"
     },
     cognito: {
-      REGION: "YOUR_PROD_COGNITO_REGION",
-      USER_POOL_ID: "YOUR_PROD_COGNITO_USER_POOL_ID",
-      APP_CLIENT_ID: "YOUR_PROD_COGNITO_APP_CLIENT_ID",
-      IDENTITY_POOL_ID: "YOUR_PROD_IDENTITY_POOL_ID"
+      REGION: "us-east-2",
+      USER_POOL_ID: "us-east-2_hjbPVYhvv",
+      APP_CLIENT_ID: "1uai97b4m2ee5mnq54rolptq56",
+      IDENTITY_POOL_ID: "us-east-2:576b1aa2-afc5-4e2a-b453-11372783d818"
     }
   };
   
